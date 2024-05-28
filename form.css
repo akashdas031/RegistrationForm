@@ -1,0 +1,87 @@
+body{
+    background-image: url(bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    text-align: center;
+    margin-top: 20px;
+    height: 60%;
+    width: 60%;
+    background-color: rgb(12, 12, 12,0.75);
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+.card{
+    border:none;
+    background-color: rgb(17, 17, 17,0.25);
+    /* justify-content: center; */
+    /* align-content: center; */
+    padding: 20px;
+    color: white;
+   }
+.input_box{
+    background-color: rgb(31, 29, 29,0.25);
+    text-align: center;
+    display: block;
+}
+input{
+    height: 30px;
+    width: 80% ;
+    background-color: rgb(10, 10, 10,0.25);
+    color: rgb(255, 255, 255,1);
+    display: flex;
+    border: none;
+    border-bottom: 2px solid rgba(7, 7, 7, 0.5);
+    display: flex;
+    margin-left: 10%;
+}
+input:hover{
+    height: 40px;
+    background-color: rgb(0, 0, 0,0.5);
+    border: none;
+}
+#checkbox{
+    height: 15px;
+    width: 15px;
+    margin-top: 10px;
+}
+button{
+    height: 40px;
+    width: 90px;
+    padding: 5px;
+    background-color: transparent;
+    border:1px solid black;
+    color: white;
+    
+}
+#submit:hover{
+   
+    height: 45px;
+    width: 95px;
+    font-size: 15px;
+    background-color: rgb(45, 45, 240);
+}
+#reset:hover{
+   
+    height: 45px;
+    width: 95px;
+    font-size: 15px;
+    background-color: rgb(233, 154, 37);
+}
+#logo{
+    height: 50px;width: 50px; 
+    border-radius:50% ;
+    background-size: cover;
+    background-image: url(sign-up.png );
+    background-size: cover;
+    margin-left: 45%;
+    margin-top: 15px;
+}
