@@ -7,6 +7,7 @@ This is a simple Responsive Registration Form designed with simple HTML and CSS 
 
 1.Responsive Design
 2.Clean and modern layout
+3.basic form validation
 
 ##Installation
 
